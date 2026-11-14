@@ -1,0 +1,55 @@
+{
+  "scanner": "workflow-integrity-prepass",
+  "script": "prepass-workflow-integrity.py",
+  "version": "1.0.0",
+  "skill_path": "skills\\adc-preparer-seance",
+  "timestamp": "2026-11-13T16:54:29.197893+00:00",
+  "status": "pass",
+  "metadata": {
+    "frontmatter": {
+      "name": "adc-preparer-seance",
+      "description": "Pr\u00e9pare une s\u00e9ance de jeu de r\u00f4le pr\u00eate \u00e0 jouer depuis la trace de campagne. Use when the user says \"pr\u00e9pare la prochaine s\u00e9ance\", \"pr\u00e9paration de s\u00e9ance\", or wants to turn their campaign trace into a runnable session prep."
+    },
+    "sections": [
+      {
+        "level": 2,
+        "title": "Overview",
+        "line": 8
+      },
+      {
+        "level": 2,
+        "title": "Resolution rules",
+        "line": 12
+      },
+      {
+        "level": 2,
+        "title": "On Activation",
+        "line": 18
+      },
+      {
+        "level": 2,
+        "title": "Pr\u00e9parer la s\u00e9ance",
+        "line": 23
+      }
+    ],
+    "workflow_type": "simple-workflow"
+  },
+  "stage_summary": {
+    "total_stages": 0,
+    "referenced": [],
+    "actual": [],
+    "missing_stages": [],
+    "orphaned_stages": []
+  },
+  "prompt_details": [],
+  "issues": [],
+  "summary": {
+    "total_issues": 0,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    }
+  }
+}
