@@ -1,0 +1,9 @@
+code: adc
+name: Atelier de Campagne
+description: Accompagne meneurs et joueurs dans la création des personnages, des campagnes et des séances de jeu de rôle, puis dans le suivi de leur évolution, en s'inspirant de Gamemastering et en s'adaptant au système choisi.
+module_version: 1.0.0
+default_selected: false
+module_greeting: >
+  Atelier de Campagne (adc) est installé. Cinq skills couvrent le cycle complet
+  de campagne : cadre, personnages, préparation de séance, compte rendu et suivi.
+  Lance "crée le cadre de campagne" pour démarrer une nouvelle campagne.
