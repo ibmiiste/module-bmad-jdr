@@ -1,0 +1,107 @@
+Installed 7 packages in 31ms
+{
+  "scanner": "prompt-metrics-prepass",
+  "script": "prepass-prompt-metrics.py",
+  "version": "2.0.0",
+  "skill_path": "skills\\adc-compte-rendu",
+  "timestamp": "2026-11-15T16:05:12.943305+00:00",
+  "budgets": {
+    "skill_md_tokens": [
+      1500,
+      2500
+    ],
+    "multi_branch_reference_tokens": 4500,
+    "single_purpose_reference_tokens": 9000
+  },
+  "skill_md": {
+    "tokens": 761,
+    "token_method": "tiktoken",
+    "section_count": 4,
+    "frontmatter": {
+      "name": "adc-compte-rendu",
+      "description": "R\u00e9dige le compte rendu factuel d'une s\u00e9ance de jeu de r\u00f4le et l'\u00e9crit dans la trace de campagne. Use when the user says \"compte rendu de la s\u00e9ance\", \"ce qui s'est pass\u00e9 \u00e0 la s\u00e9ance\", \"r\u00e9sume la s\u00e9ance\", or wants to turn what happened at the table into a session trace for the next prep.",
+      "description_chars": 286,
+      "description_has_angle_brackets": false,
+      "keys": [
+        "description",
+        "name"
+      ]
+    }
+  },
+  "aggregate": {
+    "total_files_scanned": 2,
+    "total_tokens": 1273,
+    "total_waste_patterns": 0,
+    "total_back_references": 0,
+    "files_with_numbered_prefix": 0
+  },
+  "reference_sizes": {},
+  "files": [
+    {
+      "file": "SKILL.md",
+      "tokens": 761,
+      "token_method": "tiktoken",
+      "sections": [
+        {
+          "level": 2,
+          "title": "Overview"
+        },
+        {
+          "level": 2,
+          "title": "Resolution rules"
+        },
+        {
+          "level": 2,
+          "title": "On Activation"
+        },
+        {
+          "level": 2,
+          "title": "R\u00e9diger le compte rendu"
+        }
+      ],
+      "table_count": 0,
+      "table_rows": 0,
+      "fenced_block_count": 0,
+      "allcaps_directive_count": 0,
+      "numbered_prefix_filename": false,
+      "waste_patterns": [],
+      "back_references": [],
+      "frontmatter": {
+        "name": "adc-compte-rendu",
+        "description": "R\u00e9dige le compte rendu factuel d'une s\u00e9ance de jeu de r\u00f4le et l'\u00e9crit dans la trace de campagne. Use when the user says \"compte rendu de la s\u00e9ance\", \"ce qui s'est pass\u00e9 \u00e0 la s\u00e9ance\", \"r\u00e9sume la s\u00e9ance\", or wants to turn what happened at the table into a session trace for the next prep.",
+        "description_chars": 286,
+        "description_has_angle_brackets": false,
+        "keys": [
+          "description",
+          "name"
+        ]
+      },
+      "is_skill_md": true
+    },
+    {
+      "file": ".memlog.md",
+      "tokens": 512,
+      "token_method": "tiktoken",
+      "sections": [],
+      "table_count": 0,
+      "table_rows": 0,
+      "fenced_block_count": 0,
+      "allcaps_directive_count": 0,
+      "numbered_prefix_filename": false,
+      "waste_patterns": [],
+      "back_references": [],
+      "frontmatter": {
+        "name": "",
+        "description": "",
+        "description_chars": 0,
+        "description_has_angle_brackets": false,
+        "keys": [
+          "intent",
+          "skill",
+          "updated"
+        ]
+      },
+      "is_skill_md": false
+    }
+  ]
+}

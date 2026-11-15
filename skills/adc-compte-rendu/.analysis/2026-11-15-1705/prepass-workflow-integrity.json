@@ -1,0 +1,55 @@
+{
+  "scanner": "workflow-integrity-prepass",
+  "script": "prepass-workflow-integrity.py",
+  "version": "1.0.0",
+  "skill_path": "skills\\adc-compte-rendu",
+  "timestamp": "2026-11-15T16:05:13.169848+00:00",
+  "status": "pass",
+  "metadata": {
+    "frontmatter": {
+      "name": "adc-compte-rendu",
+      "description": "R\u00e9dige le compte rendu factuel d'une s\u00e9ance de jeu de r\u00f4le et l'\u00e9crit dans la trace de campagne. Use when the user says \"compte rendu de la s\u00e9ance\", \"ce qui s'est pass\u00e9 \u00e0 la s\u00e9ance\", \"r\u00e9sume la s\u00e9ance\", or wants to turn what happened at the table into a session trace for the next prep."
+    },
+    "sections": [
+      {
+        "level": 2,
+        "title": "Overview",
+        "line": 8
+      },
+      {
+        "level": 2,
+        "title": "Resolution rules",
+        "line": 12
+      },
+      {
+        "level": 2,
+        "title": "On Activation",
+        "line": 18
+      },
+      {
+        "level": 2,
+        "title": "R\u00e9diger le compte rendu",
+        "line": 23
+      }
+    ],
+    "workflow_type": "simple-workflow"
+  },
+  "stage_summary": {
+    "total_stages": 0,
+    "referenced": [],
+    "actual": [],
+    "missing_stages": [],
+    "orphaned_stages": []
+  },
+  "prompt_details": [],
+  "issues": [],
+  "summary": {
+    "total_issues": 0,
+    "by_severity": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    }
+  }
+}
